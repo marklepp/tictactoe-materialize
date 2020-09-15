@@ -1,2 +1,2 @@
 # tictactoe
-Created with CodeSandbox
+For Web Applications-course
