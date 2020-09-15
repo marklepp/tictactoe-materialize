@@ -1,0 +1,49 @@
+body {
+  font-family: sans-serif;
+}
+
+.board .row {
+  /*border-collapse: collapse;
+  border: solid 1px black;*/
+  margin-bottom: 0;
+}
+
+.board .js-tictactoe-cell {
+  height: 60px;
+  border: solid black 1px;
+  /*text-align: center;*/
+  font-family: Helvetica;
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.board .col[data-mark="x"] {
+  /*background-color: rgb(124, 252, 0);*/
+  background-color: limegreen;
+}
+
+.board .col[data-mark="o"] {
+  /* background-color: rgb(250, 128, 114);*/
+  background-color: tomato;
+}
+
+.board-wrapper {
+  width: max-content;
+}
+/*
+.progress-bar {
+  margin-top: 10px;
+  border: 1px solid black;
+  height: 40px;
+}*/
+.progress-bar__progress {
+  height: 40px;
+}
+.progress-bar__progress[data-turn="x"] {
+  background-color: limegreen;
+}
+.progress-bar__progress[data-turn="o"] {
+  background-color: tomato;
+}

@@ -1,2 +1,2 @@
-# tictactoe-materialize
+# tictactoe
 Created with CodeSandbox
